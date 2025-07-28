@@ -40,7 +40,7 @@ button {
   margin-top: 6px;
   width: 100%;
   padding: 12px;
-  background: #4CAF50;
+  background: #1c871f;
   color: white;
   font-size: 16px;
   border: none;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-  background: #45a049;
+  background: #08540c;
 }
 
 input:focus {
