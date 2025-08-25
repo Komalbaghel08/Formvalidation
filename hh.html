@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="generate">Generate Emoji</button>
+<div id="emojiDisplay" style="font-size: 50px; margin-top: 20px;"></div>
+
+<script>
+  const emojis = ["😀", "😂", "😍", "🤔", "😎", "🎉", "🐱", "🐶", "🍕", "⚽"];
+
+  document.getElementById("generate").addEventListener("click", () => {
+    let randomIndex = Math.floor(Math.random() * emojis.length);
+    document.getElementById("emojiDisplay").innerText = emojis[randomIndex];
+  });
+</script>
+
+</body>
+</html>

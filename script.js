@@ -59,7 +59,4 @@ let submitbtn = () => {
     document.querySelector("#confirmPassword").focus()
     return false;
   }
-
 }
-
-
